@@ -2,7 +2,7 @@
 
 Description
 
-MyReads is an application where you can categorize your books on separate shelves. You can search for a book on the search page and also add it to the chosen shelf. After this action, the book will be removed from the library and will go to the chosen shelf on the main page, where the 3 main shelves, Current Read, Read and Read, are found. At any time it is possible to change the stauts of the books or return the library.
+MyReads is an application where you can categorize your books on separate shelves. You can search for a book on the search page and also add it to the chosen shelf. After this action, the book will be removed from the library and will go to the chosen shelf on the main page, where the 3 main shelves, Current Read, Waiting Read and Read, are found. At any time it is possible to change the stauts of the books or return the library.
 
 
 To get started developing:
