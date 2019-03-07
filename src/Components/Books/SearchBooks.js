@@ -17,16 +17,31 @@ class SearchBooks extends Component {
   handleSearchTextChange = (searchText) => {
 
     searchText = searchText.trim()
-
+  
     if (searchText.length > 0) {
-      BooksAPI.search(searchText, 10).then((searchResults) =>
-        this.props.myBooks.map((book) => (
-          searchResults = searchResults.filter((b) => b.id !== book.id).concat(book),
+      BooksAPI.search(searchText, 10).then((searchResults) => {
+        if(Array.isArray(searchResults)) {
+          const updatedResults = searchResults.map(result => {
+
+            const userBook = this.props.myBooks.find(book => book.id === result.id)
+
+            const shelf = userBook ? userBook.shelf : 'none' 
+
+            return {
+              result,
+              shelf: shelf
+            }
+          })
           this.setState({
-            searchResults: searchResults.error ? [] : searchResults
-          })))
-      )
-    } else (searchResults())
+            searchResults: updatedResults
+          })
+        } else {
+          this.setState({searchResults: []})
+        }
+      })
+    } else {
+      this.setState({searchResults: []})
+    }
   }
 
   render() {

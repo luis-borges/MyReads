@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Book = ({ book, OnChangeBookShelf }) => (
   <div className="book" >
     <div className="book-top">
-      <div className="book-cover" style={{ width: 128, height: 188, backgroundImage: 'url(' + book.imageLinks.smallThumbnail + ')' }}></div>
+      <div className="book-cover" style={{ width: 128, height: 188, backgroundImage: 'url(' + (book.imageLinks ? book.imageLinks.smallThumbnail : 'http://placekitten.com/128/188') + ')' }}></div>
       <BookShelfChanger OnChangeBookShelf={OnChangeBookShelf} book={book} />
     </div>
     <div className="book-title">{book.title}</div>
