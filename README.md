@@ -3,27 +3,6 @@
 Description
 MyReads is an application where you can categorize your books into separate shelves. Home You can search through your book in the search page, and add the chosen shelf. In doing so, the book will be removed from the library, and will go to the bookshelf on the main page. Where are the top 3 shelves, Current Reading, Want to Read and Read. You can at any time change the book of books or return the library.
 
-Features
-List shelves categorized in main screen 
-
-Current Reading 
-Want To Read 
-Read 
-Button to move the book from one bookcase to another
-
-Search page for most searched terms
-
-Common Terms
-
-'Android', 'Art', 'Artificial Intelligence', 'Astronomy', 'Austen', 'Baseball', 'Basketball', 'Bhagat',
-'Biography', 'Brief', 'Business', 'Camus', 'Cervantes', 'Christie', 'Classics', 'Comics', 'Cook', 'Cricket',
-'Cycling', 'Desai', 'Design', 'Development', 'Digital Marketing', 'Drama', 'Drawing', 'Dumas', 'Education',
-'Everything', 'Fantasy', 'Film', 'Finance', 'First', 'Fitness', 'Football', 'Future', 'Games', 'Gandhi', 'Homer',
-'Horror', 'Hugo', 'Ibsen', 'Journey', 'Kafka', 'King', 'Lahiri', 'Larsson', 'Learn', 'Literary Fiction', 'Make',
-'Manage', 'Marquez', 'Money', 'Mystery', 'Negotiate', 'Painting', 'Philosophy', 'Photography', 'Poetry', 'Production',
-'Programming', 'React', 'Redux', 'River', 'Robotics', 'Rowling', 'Satire', 'Science Fiction', 'Shakespeare', 'Singh',
-'Swimming', 'Tale', 'Thrun', 'Time', 'Tolstoy', 'Travel', 'Ultimate', 'Virtual Reality', 'Web Development', 'iOS'
-
 ## Developer
 ```bash
 ├── CONTRIBUTING.md
