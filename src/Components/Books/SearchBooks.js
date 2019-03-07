@@ -26,7 +26,7 @@ class SearchBooks extends Component {
             searchResults: searchResults.error ? [] : searchResults
           })))
       )
-    }
+    } else (searchResults())
   }
 
   render() {

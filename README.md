@@ -1,12 +1,19 @@
 # MyReads Project
 
 Description
+
 MyReads is an application where you can categorize your books on separate shelves. You can search for a book on the search page and also add it to the chosen shelf. After this action, the book will be removed from the library and will go to the chosen shelf on the main page, where the 3 main shelves, Current Read, Read and Read, are found. At any time it is possible to change the stauts of the books or return the library.
+
 
 To get started developing:
 
-* install all project dependencies with npm install
-* start the development server with npm start
+* clone repository
+
+    git clone https://github.com/luis-borges/MyReads.git
+
+* install all project dependencies with npm install or yarn
+
+* start the development server with npm start or yarn 
 
 * It is also possible to use yarn
 
