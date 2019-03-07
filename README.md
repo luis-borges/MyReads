@@ -10,7 +10,7 @@ To get started developing:
 
 * It is also possible to use yarn
 
-* Use the localhost address: 3000 to view the project
+* Use the address http://localhost:3000 to view the project
 
 ## Developer
 ```bash
