@@ -5,10 +5,12 @@ MyReads is an application where you can categorize your books on separate shelve
 
 To get started developing:
 
-install all project dependencies with npm install
-start the development server with npm start
+* install all project dependencies with npm install
+* start the development server with npm start
 
 * It is also possible to use yarn
+
+** Use the localhost address: 3000 to view the project
 
 ## Developer
 ```bash
