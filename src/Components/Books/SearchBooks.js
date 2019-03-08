@@ -25,12 +25,8 @@ class SearchBooks extends Component {
 
             const userBook = this.props.myBooks.find(book => book.id === result.id)
 
-            const shelf = userBook ? userBook.shelf : 'none' 
+            return userBook ? userBook : { ...result, shelf: 'none' }
 
-            return {
-              result,
-              shelf: shelf
-            }
           })
           this.setState({
             searchResults: updatedResults
