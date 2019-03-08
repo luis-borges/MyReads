@@ -24,12 +24,6 @@ class BooksApp extends Component {
     })
   }
 
-  removeBook = (book, target) => {
-    this.setState((state) => ({
-      books: state.books.filter((b) => b.id !== book.id)
-    }))
-  }
-
   changeBookShelf = (book, value) => {
     let { books } = this.state
     books = books.filter(b => b.id !== book.id).concat({
